@@ -4,11 +4,587 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Treact</title>
+    <title>Free Modern React Templates</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="aos.css">
     <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/ac385bd3d7.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <section id="landing">
+        <nav>
+            <div class="row">
+                <div class="container nav__container">
+                    <a class="treact__logo no-cursor" href="#">
+                        <img class="treact__img" src="./assets/treact_logo.svg" alt="">
+                        Treact
+                    </a>
+                    <ul class="nav__links">
+                        <li><a href="" class="nav__link underline__effect no-cursor">About</a></li>
+                        <li><a href="" class="nav__link underline__effect no-cursor">Blog</a></li>
+                        <li><a href="" class="nav__link underline__effect no-cursor">Pricing</a></li>
+                        <li><a href="" class="nav__link underline__effect no-cursor">Contact Us</a></li>
+                        <li><a href="" class="nav__link underline__effect no-cursor">Login</a></li>
+                        <li><a href="" class="nav__link nav__link--primary no-cursor">Sign Up</a></li>
+                    </ul>
+                
+                    <button class="btn__menu" onclick="openMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="menu__backdrop">
+                        <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                            <i class="fa-solid fa-x"></i> 
+                        </button>
+                        <ul class="menu__links">
+                            <li class="menu__list">
+                                <a class="menu__link no-cursor" href="">About</a>
+                            </li>
+                            <li class="menu__list">
+                                <a class="menu__link no-cursor" href="">Blog</a>
+                            </li>
+                            <li class="menu__list">
+                                <a class="menu__link no-cursor" href="">Pricing</a>
+                            </li>
+                            <li class="menu__list">
+                                <a class="menu__link no-cursor" href="">Contact Us</a>
+                            </li>
+                            <li class="menu__list">
+                                <a class="menu__link no-cursor" href="">Login</a>
+                            </li>
+                            <li class="drop__button no-cursor">
+                                <a class="drop__button--link no-cursor" href="">Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="landing__container">
+                        <div class="customers--wrapper">
+                            <div class="customers__inner--wrapper">
+                                <h1>
+                                    Beautiful React Templates <span class="purple-text">for you.</span>
+                                </h1>
+                                <p class="landing__page--para">
+                                    Our templates are easy to setup, understand and customize. 
+                                    Fully modular components with a variety of pages and 
+                                    components.
+                                </p>
+                            </div>
+                            <div class="input--wrapper">
+                                <input type="text" placeholder="Your E-mail Address">
+                                <button class="btn">Get Started</button>
+                            </div>
+                            
+                            <div>
+                                <p class="trusted__customers--para">
+                                    OUR TRUSTED CUSTOMERS
+                                </p>
+                                <figure>
+                                    <img class="customers__img"src="./assets/trusted customers.png" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                        <figure class="landing__page__girl__img--wrapper">
+                            <img class="landing__page__girl__img"src="./assets/landing_page_girl.svg" alt="">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </header>    
+    </section>
+    <section id="features">
+        <div class="row">
+            <div class="container features__container">
+                <div class="features__title--wrapper">
+                    <span class="purple-text">FEATURES</span>
+                    <h2>We have Amazing <span class="purple-text">Service.</span></h2>
+                    <p class="features__title--para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                <div class="services">
+                    <div class="service">
+                        <div>
+                            <figure>
+                                <img class="service__img" src="./assets/shield.svg" alt="">
+                            </figure>
+                        </div>
+                        <div class="service__info">
+                            <h2 class="service__info--title">Secure</h2>
+                            <p class="service__info--para">We strictly only deal with vendors that provide top notch security.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div>
+                            <figure>
+                                <img class="service__img" src="./assets/247_support.svg" alt="">
+                            </figure>
+                        </div>
+                        <div class="service__info">
+                            <h2 class="service__info--title">24/7 Support</h2>
+                            <p class="service__info--para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, magni.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div>
+                            <figure>
+                                <img class="service__img" src="./assets/customize.svg" alt="">
+                            </figure>
+                        </div>
+                        <div class="service__info">
+                            <h2 class="service__info--title">Customizable</h2>
+                            <p class="service__info--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, fuga.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div>
+                            <figure>
+                                <img class="service__img" src="./assets/reliable.svg" alt="">
+                            </figure>
+                        </div>
+                        <div class="service__info">
+                            <h2 class="service__info--title">Reliable</h2>
+                            <p class="service__info--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsa.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div>
+                            <figure>
+                                <img class="service__img" src="./assets/fast.svg" alt="">
+                            </figure>
+                        </div>
+                        <div class="service__info">
+                            <h2 class="service__info--title">Fast</h2>
+                            <p class="service__info--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, rerum.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div>
+                            <figure>
+                                <img class="service__img" src="./assets/easy.svg" alt="">
+                            </figure>
+                        </div>
+                        <div class="service__info">
+                            <h2 class="service__info--title">Easy</h2>
+                            <p class="service__info--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, itaque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="quality">
+        <div class="container">
+            <div class="row">
+                <div class="quality__container" data-aos="fade-right">
+                    <div class="quality__info--wrapper">
+                        <span class="purple-text">QUALITY WORK</span>
+                        <h2 class="quality__info--title">Designed & Developed by <span class="purple-text">Professionals.</span></h2>
+                        <p class="quality__info--para">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <a href="" class="button__1">Learn More</a>
+                    </div>
+                    <figure class="quality__img--wrapper">
+                        <img class="quality__img" src="./assets/quality.png" alt="">
+                        <svg viewBox="0 0 1280 1280" class="grid1">
+                            <path d="M55 33.5C44.5 37 35 47.6 32.8 58.3c-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 33.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.4 25.5 19.4 4.1 39.5-14.2 37.5-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 33.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 33.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM1207 33.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM55 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 161.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.4 25.5 19.4 4.1 39.5-14.2 37.5-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 161.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 161.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM1207 161.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM55 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 289.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 417.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 545.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 673.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 801.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 801.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 801.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM439 801.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM567 801.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 801.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 801.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 801.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 801.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 801.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 929.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 929.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 929.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM439 929.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM567 929.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 929.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 929.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 929.5c-15.1 5-25.3 21.6-22.2 36.2 2.5 11.9 13.6 23 25.5 25.5 19.3 4.1 39.4-14.2 37.4-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 929.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 929.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 1057.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM439 1057.5c-10.5 3.5-20 14.1-22.2 24.8-2.5 11.7 3.2 24.4 14.2 31.9 10.7 7.4 22.9 7.5 33.7.3 17.7-11.8 20.1-33.8 5.3-48.5-8.5-8.6-20.7-11.9-31-8.5zM567 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 1057.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM55 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM183 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM311 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM439 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM567 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM695 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM823 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM951 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1079 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6zM1207 1185.5c-10.5 3.5-20 14.1-22.2 24.8-4.3 20.6 16.3 41.2 36.9 36.9 15.5-3.2 27.5-19 26-33.9-1.1-10.5-9-21.3-19-26.2-6.1-2.9-15.5-3.6-21.7-1.6z">
+                            </path>
+                        </svg>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="steps">
+        <div class="container">
+            <div class="row">
+                <div class="steps--wrapper" data-aos="fade-left">
+                    <div class="steps__info--wrapper">
+                        <div class="steps__title">
+                            <span class="purple-text">STEPS</span>
+                            <h2 class="steps__info--title">Easy to <span class="purple-text">Get Started.</span></h2>
+                        </div>
+                        <div class="steps__rdr--wrapper">
+                            <div class="rdr">
+                                <div class="steps__number">01</div>
+                                <div class="rdr__inner--wrapper">
+                                    <h6 class="steps__title">Register</h6>
+                                    <p class="steps--para">Create an account with us using Google or Facebook.</p>
+                                </div>
+                            </div>
+                            <div class="rdr">
+                                <div class="steps__number">02</div>
+                                <div class="rdr__inner--wrapper">
+                                    <h6 class="steps__title">Download</h6>
+                                    <p class="steps--para">Browse and Download the template that you like from the marketplace.</p>
+                                </div>
+                            </div>
+                            <div class="rdr">
+                                <div class="steps__number">03</div>
+                                <div class="rdr__inner--wrapper">
+                                    <h6 class="steps__title">Run</h6>
+                                    <p class="steps--para">Follow the instructions to setup and customize the template to your needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="steps__img--wrapper">
+                        <img class="steps__img" src="./assets/steps.png" alt="">
+                    </figure>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="values">
+        <div class="container">
+            <div class="row">
+                <div class="values__container" data-aos="fade-right">
+                    <div class="values__info--wrapper">
+                        <span class="purple-text">VALUES</span>
+                        <h2 class="values__info--title">We Always Abide by Our <span class="purple-text">Principles.</span></h2>
+                        <p class="values__info--para">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna
+                             aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                              ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="principles">
+                            <div class="principle--outer_wrapper">
+                                <div class="principle--inner_wrapper">
+                                    <figure>
+                                        <img class="dollar" src="./assets/dollar.png" alt="">
+                                    </figure>
+                                    <div class="principle__title">
+                                        Affordable
+                                    </div>
+                                </div>
+                                <p class="principle--para">
+                                    We promise to offer you the best rate we can - 
+                                    at par with the industry standard.    
+                                </p>
+                            </div>
+                            <div class="principle--outer_wrapper">
+                                <div class="principle--inner_wrapper">
+                                    <figure>
+                                        <img class="briefcase" src="./assets/briefcase.png" alt="">
+                                    </figure>
+                                    <div class="principle__title">
+                                        Professionalism
+                                    </div>
+                                </div>
+                                <p class="principle--para">
+                                    We assure you that our templates are designed 
+                                    and created by professional designers. 
+                                </p>
+                            </div>
+                        </div>
+                        <a href="" class="button__1">Learn More</a>
+                    </div>
+                    <figure class="values__img--wrapper">
+                        <img class="values__img" src="./assets/values.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <div class="container" data-aos="fade-left">
+            <div class="row">
+                <div class="pricing__container">
+                    <span class="purple-text">PRICING</span>
+                    <h2 class="pricing__title">Reasonable & Flexible <span class="purple-text">Plans.</span></h2>
+                    <p class="pricing__info--para">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                <div class="pricing__cards">
+                    <div class="business__card">
+                        <div class="card__top business__color">
+                            <span class="card__title">BUSINESS</span>
+                            <span class="card__price">$37.99</span>
+                            <span class="card__monthly ">MONTHLY</span>
+                        </div>
+                        <div class="card__middle business__color">
+                            <span class="main__feature">For Small Businesses</span>
+                            <span class="feature">60 Templates</span>
+                            <span class="feature">15 Landing Pages</span>
+                            <span class="feature">22 Internal Pages</span>
+                            <span class="feature">Priority Assistance</span>
+                        </div>
+                        <div class="card__bottom">
+                            <button class="card__button">BUY NOW</button>
+                        </div>
+                    </div>
+                    <div class="personal__card">
+                        <div class="card__top personal__color">
+                            <span class="card__title">PERSONAL</span>
+                            <span class="card__price">$17.99</span>
+                            <span class="card__monthly">MONTHLY</span>
+                        </div>
+                        <div class="card__middle personal__color">
+                            <span class="main__feature">For Individuals Businesses</span>
+                            <span class="feature">30 Templates</span>
+                            <span class="feature">7 Landing Pages</span>
+                            <span class="feature">12 Internal Pages</span>
+                            <span class="feature">Basic Assistance</span>
+                        </div>
+                        <div class="card__bottom">
+                            <button class="card__button">BUY NOW</button>
+                        </div>
+                    </div>
+                    <div class="enterprise__card">
+                        <div class="card__top enterprise__color">
+                            <span class="card__title">ENTERPRISE</span>
+                            <span class="card__price">$57.99</span>
+                            <span class="card__monthly ">MONTHLY</span>
+                        </div>
+                        <div class="card__middle enterprise__color">
+                            <span class="main__feature">For Large Businesses</span>
+                            <span class="feature">90 Templates</span>
+                            <span class="feature">27 Landing Pages</span>
+                            <span class="feature">37 Internal Pages</span>
+                            <span class="feature">Personal Assistance</span>
+                        </div>
+                        <div class="card__bottom">
+                            <button class="card__button">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonial">
+        <div class="row">
+            <div class="container">
+                <div class="testimonial__container" data-aos="fade-right">
+                    <div class="testimonial__info--wrapper">
+                        <span class="purple-text">TESTIMONIALS</span>
+                        <h2>Our Clients <span class="purple-text">Love Us.</span></h2>
+                        <p class="pricing__info--para">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                            aliqua enim ad minim veniam.
+                        </p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="title__font">
+                            Amazing User Experience
+                        </div>
+                        <p class="person--para">
+                            Duis aute irure dolor in reprehenderit in voluptate velit
+                                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                                occaecat cupidatat non proident, sunt in culpa qui officia.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                                ullamco.
+                        </p>
+                        <div class="person">
+                            <div class="person__info--wrapper">
+                                <figure class="person__img--wrapper">
+                                    <img class="person__img"src="./assets/person.png" alt="">
+                                </figure>
+                                <div class="person__description--wrapper">
+                                    <div class="title__font">
+                                        Charlotte Hale
+                                    </div>
+                                    <div>
+                                        Director, Delos Inc.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="person__button--wrapper">
+                                <a href="" class="button__left">
+                                    <img class="arrow__left" src="./assets/arrow.png" alt="">
+                                </a>
+                                <div class="divider"></div>
+                                <a href="" class="button__right">
+                                    <img class="arrow__right" src="./assets/arrow.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="testimonial__img--wrapper">
+                        <img class="testimonial__img" src="./assets/testimonial.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="FAQ">
+        <div class="row">
+            <div class="container">
+                <div class="FAQ__container" data-aos="fade-left">
+                    <div class="FAQ__info--wrapper">
+                        <span class="purple-text">FAQS</span>
+                        <h2>You have <span class="purple-text">Questions?</span></h2>
+                        <p class="FAQ--para">
+                            And we have got answers to all of them. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </p>
+                    </div>
+                    <div class="banners">
+                        <div class="banner">
+                            <div>
+                                Are all the templates easily customizable?
+                            </div>
+                            <a class= "no-cursor" href="">
+                                <img class="banner__img" src="./assets/down_arrow.png" alt="">
+                            </a>
+                        </div>
+                        <div class="banner">
+                            <div>
+                                How long do you usually support a standalone template for?
+                            </div>
+                            <a class= "no-cursor" href="">
+                                <img class="banner__img" src="./assets/down_arrow.png" alt="">
+                            </a>
+                        </div>
+                        <div class="banner">
+                            <div>
+                                What kind of payment methods do you accept?
+                            </div>
+                            <a class= "no-cursor" href="">
+                                <img class="banner__img" src="./assets/down_arrow.png" alt="">
+                            </a>
+                        </div>
+                        <div class="banner">
+                            <div>
+                                Is there a subscription service to get the latest templates?
+                            </div>
+                            <a class= "no-cursor" href="">
+                                <img class="banner__img" src="./assets/down_arrow.png" alt="">
+                            </a>
+                        </div>
+                        <div class="banner">
+                            <div>
+                                Are the templates compatible with React?
+                            </div>
+                            <a class= "no-cursor" href="">
+                                <img class="banner__img" src="./assets/down_arrow.png" alt="">
+                            </a>
+                        </div>
+                        <div class="banner">
+                            <div>
+                                Do you really support Internet Explorer 11?
+                            </div>
+                            <a class= "no-cursor" href="">
+                                <img class="banner__img" src="./assets/down_arrow.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blue">
+        <div class="row">
+            <div class="container">
+                <div class="blue__container" data-aos="fade-right">
+                    <div class="blue__get-started">
+                        Developers all over the world are happily using Treact.
+                    </div>
+                    <div class="blue__button--wrapper">
+                        <button class="button__getStarted">Get Started</button>
+                        <button class="button__contact">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="footer__container container">
+                <div class="links--wrapper">
+                    <div class="links">
+                        <div class="link">
+                            <h5 class="link__title">main</h5>
+                            <a class="link__sublink underline__effect no-cursor" href="">Blog</a>
+                            <a class="link__sublink underline__effect no-cursor" href="">FAQs</a>
+                            <a class="link__sublink underline__effect no-cursor" href="">Support</a>
+                            <a class="link__sublink underline__effect no-cursor" href="">About Us</a>
+                        </div>
+                        <div class="link">
+                            <h5 class="link__title">product</h5>
+                            <a class="link__sublink underline__effect no-cursor" href="">Log In</a>
+                            <a class="link__sublink underline__effect no-cursor" href="">Personal</a>
+                            <a class="link__sublink underline__effect no-cursor" href="">Business</a>
+                            <a class="link__sublink underline__effect no-cursor" href="">Team</a>
+                        </div>
+                        <div class="link">
+                            <h5 class="link__title">press</h5>
+                            <a class="link__sublink underline__effect no-cursor" href="">Logos</a>
+                            <a class="link__sublink underline__effect no-cursor" href="">Events</a>
+                            <a class="link__sublink underline__effect no-cursor" href="">Stories</a>
+                            <a class="link__sublink underline__effect no-cursor" href="">Office</a>
+                        </div>
+                        <div class="link">
+                            <h5 class="link__title">team</h5>
+                            <a class="link__sublink underline__effect no-cursor" href="">Career</a>
+                            <a class="link__sublink underline__effect no-cursor" href="">Founders</a>
+                            <a class="link__sublink underline__effect no-cursor" href="">Culture</a>
+                            <a class="link__sublink underline__effect no-cursor" href="">Onboarding</a>
+                        </div>
+                        <div class="link">
+                            <h5 class="link__title">legal</h5>
+                            <a class="link__sublink underline__effect no-cursor" href="">GDRP</a>
+                            <a class="link__sublink underline__effect no-cursor" href="">Privacy Policy</a>
+                            <a class="link__sublink underline__effect no-cursor" href="">Terms of Service</a>
+                            <a class="link__sublink underline__effect no-cursor" href="">Disclaimer</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__divider"></div>
+                <div class="footer__bottom--wrapper">
+                    <a class="footer__logo--wrapper" href="#">
+                        <img class="footer__logo" src="./assets/treact_logo_footer.svg" alt="">
+                        <h5 class="footer_word">Treact Inc.</h5>
+                    </a>
+                    <p class="footer--para">
+                        &copy; 2018 Treact Inc. All Rights Reserved.
+                    </p>
+                    <div class="footer__buttons--wrapper no-cursor">
+                        <div class="social--button facebook">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="social--button">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="social--button youtube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="aos.js"></script>
+    <script>
+        AOS.init();
+    </script>    
 </body>
 </html>
